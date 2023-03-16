@@ -1,0 +1,118 @@
+
+
+html, body, ul, li, h1, h2, h3, p, img {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+
+body {
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+background-color: #fff;
+}
+
+a {
+color: white;
+text-decoration: none;
+justify-content: space-around;
+padding: 10px;
+margin-right: 40px;
+}
+
+a:hover {
+background-color: #FFDE00;
+padding: 1.2rem;
+}
+
+.title-bar {
+display: flex;
+align-items: center;
+background: #222222;
+padding: 1rem;
+color: white;
+}
+.accentC1{
+color: #FFDE00;
+}
+
+.logo {
+width: 60px;
+height: 60px;
+margin-right: 1rem;
+border-radius: 100%;
+}
+
+nav {
+background-color: #73777B;
+color: #fff;
+padding: 1rem;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav li.dropdown:hover .dropdown-content {
+display: block;
+}
+
+nav .dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 150px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+nav .dropdown-content a {
+display: block;
+color: #333;
+padding: 0.5rem;
+text-decoration: none;
+}
+
+nav .dropdown-content a:hover {
+background-color: #FFDE00;
+min-width: 150px;
+}
+
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 1rem;
+}
+
+.card-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+flex: 1;
+margin: 1rem;
+border: 1px solid #ccc;
+padding: 1rem;
+}
+
+.instruction {
+margin-bottom: 1rem;
+}
+
+img {
+width:400px;
+height:200px;
+}
+
+.Act-title{
+    text-align: center;
+    color:  #FFDE00
+}
